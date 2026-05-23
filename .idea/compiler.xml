@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mcp-server-jvminsight" />
+        <module name="mcp-server-shared" />
+        <module name="mcp-server-containers" />
+        <module name="mcp-server-jdbc" />
+        <module name="mcp-server-kubernetes" />
+        <module name="mcp-server-filesystem" />
+        <module name="mcp-server-wolfram" />
+        <module name="mcp-server-jfx" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mcp-server-containers" options="-parameters -parameters -Xlint:unchecked" />
+      <module name="mcp-server-filesystem" options="-parameters -parameters -Xlint:unchecked" />
+      <module name="mcp-server-jdbc" options="-parameters -parameters -Xlint:unchecked" />
+      <module name="mcp-server-jfx" options="-parameters -parameters -Xlint:unchecked" />
+      <module name="mcp-server-jvminsight" options="-parameters -parameters -Xlint:unchecked" />
+      <module name="mcp-server-kubernetes" options="-parameters -parameters -Xlint:unchecked" />
+      <module name="mcp-server-shared" options="-parameters -parameters -Xlint:unchecked" />
+      <module name="mcp-server-wolfram" options="-parameters -parameters -Xlint:unchecked" />
+      <module name="mcp-servers-parent" options="-parameters -parameters -Xlint:unchecked" />
+    </option>
+  </component>
+</project>
